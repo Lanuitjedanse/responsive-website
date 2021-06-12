@@ -1,5 +1,7 @@
 module.exports = {
   purge: {
+    enabled: process.env.NODE_ENV === "production",
+    content: ["src/*", "public/*"],
     options: {
       whitelistPatterns: [/agile*/],
       whitelistPatternsChildren: [/agile*/],
