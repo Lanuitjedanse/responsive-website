@@ -57,7 +57,7 @@ function App() {
       <Banner
         toggleQuestionnaire={toggleQuestionnaire}
         bannerImg="/banner2.png"
-        height="h-80"
+        height="h-90"
       ></Banner>
       <Footer />
       {toggleBox && (
