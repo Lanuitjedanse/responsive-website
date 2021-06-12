@@ -28,12 +28,12 @@ export default function Reviews() {
         {reviews &&
           reviews.map((review, i) => (
             <div
-              className="flex flex-col justify-around w-72 h-80 bg-white border-2 items-start mt-10 mr-5 ml-5 mb-5 xs:mr-0 xs:ml-0"
+              className="flex flex-col justify-around w-72 h-80 bg-white border-2 items-start mt-10 mr-5 ml-5 mb-5 xs:mr-0 xs:ml-0 sm:h-96"
               key={i}
             >
-              <div className="h-3/4">
+              <div className="h-3/4 ">
                 <img
-                  className="mt-5 mb-2 ml-5 w-20 h-20 rounded-full object-cover mr-6"
+                  className="mt-5 mb-2 ml-5 w-20 h-20 rounded-full object-cover mr-6 sm:w-15 sm:h-15"
                   src={review.img}
                   alt="grey tick icon"
                 />

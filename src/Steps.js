@@ -19,7 +19,7 @@ export default function Steps() {
         <h2 className="text-4xl font-extrabold text-center mt-5 mb-5 p-3">
           Einfach besser hören. In nur 3 Schritten.
         </h2>
-        <div className="flex justify-center xs:flex-col mb-10">
+        <div className="flex justify-center xs:flex-col mb-10 sm:flex-col">
           {steps &&
             steps.map((step, i) => (
               <div className="flex flex-col w-80 mr-4 " key={i}>

@@ -36,7 +36,7 @@ export default function ListAdvantages({ toggleQuestionnaire }) {
               list.map((info, i) => (
                 <div className="flex items-center mt-5" key={i}>
                   <img
-                    className="w-6  mr-6"
+                    className="w-6 mr-6 sm:ml-10 md:ml-10"
                     src="grey-tick.png"
                     alt="grey tick icon"
                   />
