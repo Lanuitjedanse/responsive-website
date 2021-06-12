@@ -39,7 +39,7 @@ function App() {
         thirdParagraph={`Zwei von drei Hörgerätenutzern bereuen sogar nicht eher den Schritt zur Hörhilfe gewagt zu haben.`}
         orientation="left"
       />
-      <div className="self-center mt-10 mb-10 ">
+      <div className="self-center mt-10 mb-10 xs:w-72">
         <Button toggleQuestionnaire={toggleQuestionnaire}>
           Hörgeräte unverbindlich Probetragen
         </Button>
