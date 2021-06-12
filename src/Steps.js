@@ -40,7 +40,7 @@ export default function Steps() {
               </div>
             ))}
         </div>
-        <div className="border-b-2 border-black w-200 absolute mt-72 xs:hidden sm:visible md:visible lg:visible"></div>
+        <div className="border-b-2 border-black w-200 absolute mt-72 xs:hidden sm:hidden md:visible lg:visible"></div>
       </div>
     </>
   );
