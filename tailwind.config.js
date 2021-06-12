@@ -1,5 +1,10 @@
 module.exports = {
-  purge: "false",
+  purge: {
+    options: {
+      whitelistPatterns: [/agile*/],
+      whitelistPatternsChildren: [/agile*/],
+    },
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
