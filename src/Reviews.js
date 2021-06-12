@@ -28,7 +28,7 @@ export default function Reviews() {
         {reviews &&
           reviews.map((review, i) => (
             <div
-              className="flex flex-col justify-around w-72 h-80 bg-white border-2 items-start mt-10 mr-10 mb-5 xs:mr-0"
+              className="flex flex-col justify-around w-72 h-80 bg-white border-2 items-start mt-10 mr-5 ml-5 mb-5 xs:mr-0 xs:ml-0"
               key={i}
             >
               <div className="h-3/4">
