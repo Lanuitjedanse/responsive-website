@@ -1,7 +1,7 @@
 import { ReactComponent as CloseIcon } from "./times-circle-solid.svg";
-import { useState, useEffect } from "react";
-import axios from "axios";
+import { useState } from "react";
 import Button from "./Button";
+
 export default function ContactModal({ toggleQuestionnaire }) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");

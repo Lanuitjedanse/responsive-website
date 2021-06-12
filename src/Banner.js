@@ -1,5 +1,4 @@
 import "./Banner.css";
-import Button from "./Button";
 
 export default function Banner({ children, bannerImg, height }) {
   return (
