@@ -50,7 +50,7 @@ export default function ListAdvantages({ toggleQuestionnaire }) {
                 certificatesImg.map((certificate, i) => (
                   <div className="info-box" key={i}>
                     <img
-                      className="text-lg font-bold mr-3 object-cover"
+                      className="text-lg font-bold p-2 object-cover xs:w-28"
                       src={certificate.img}
                       alt={certificate.name}
                     />
