@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <>
-      <nav className="flex justify-between">
+      <nav className="flex justify-between z-20 bg-white">
         <div className="flex items-center">
           <img
             className="w-36 p-2 ml-5"

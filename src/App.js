@@ -19,12 +19,12 @@ function App() {
     setToggleBox(!toggleBox);
   };
   return (
-    <div className="w-full h-full flex flex-col box-border m-0">
+    <div className="w-full h-full flex flex-col overflow-x-hidden">
       <Header />
       <Banner
         toggleQuestionnaire={toggleQuestionnaire}
         bannerImg="/background-banner.png"
-        height="banner-height"
+        height="h-100"
       >
         <BoxCertificates toggleQuestionnaire={toggleQuestionnaire} />
       </Banner>
@@ -39,7 +39,7 @@ function App() {
         thirdParagraph={`Zwei von drei Hörgerätenutzern bereuen sogar nicht eher den Schritt zur Hörhilfe gewagt zu haben.`}
         orientation="left"
       />
-      <div className="self-center mt-16 mb-16 ">
+      <div className="self-center mt-10 mb-10 ">
         <Button toggleQuestionnaire={toggleQuestionnaire}>
           Hörgeräte unverbindlich Probetragen
         </Button>

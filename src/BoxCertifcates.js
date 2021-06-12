@@ -4,7 +4,7 @@ export default function BoxCertificates({ toggleQuestionnaire }) {
   return (
     <>
       <div className="h-full bg-geers-blue flex items-center">
-        <div className="flex flex-col items-center justify-around h-100 w-100 bg-white border-1 mr-10 border-gray-50 xs:w-full xs:mr-0">
+        <div className="flex flex-col items-center justify-around h-96 w-96 bg-white border-1 mr-10 border-gray-50 xs:mr-0 xs:w-100 xs:h-100 sm:w-100 sm:-h100">
           <h2 className="text-4xl font-extrabold text-center p-2">
             Das richtige Hörgerät verbessert mehr als nur Ihr Hören.
           </h2>
