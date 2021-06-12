@@ -16,7 +16,7 @@ export default function Steps() {
   return (
     <>
       <div className="flex flex-col items-center bg-gray-100">
-        <h2 className="text-4xl font-extrabold text-center mt-5 mb-5">
+        <h2 className="text-4xl font-extrabold text-center mt-5 mb-5 p-3">
           Einfach besser hören. In nur 3 Schritten.
         </h2>
         <div className="flex justify-center xs:flex-col mb-10">
@@ -29,7 +29,7 @@ export default function Steps() {
                     src={step.img}
                     alt="grey tick icon"
                   />
-                  <p className="bg-black text-white font-bold rounded-full h-10 w-10 text-4xl text-center mt-5 z-10">
+                  <p className="bg-black text-white font-bold rounded-full h-10 w-10 text-4xl text-center mt-7 z-10">
                     {i + 1}
                   </p>
 
@@ -40,7 +40,7 @@ export default function Steps() {
               </div>
             ))}
         </div>
-        <div className="border-b-2 border-black w-200 absolute mt-72 xs:hidden sm:hidden md:visible lg:visible"></div>
+        <div className="border-b-2 border-black w-200 absolute mt-80 xs:hidden sm:hidden md:visible lg:visible"></div>
       </div>
     </>
   );
