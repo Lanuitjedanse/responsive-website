@@ -6,7 +6,7 @@ export default function Banner({ children, bannerImg, height }) {
     <>
       <div
         className={`flex bg-cover ${height} ${
-          height === "h-100" && "xs:h-screen "
+          height === "h-100" && "xs:h-1/2 "
         } xs:w-screen items-center justify-end 
         xs:flex-col`}
       >
